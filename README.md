@@ -1,7 +1,7 @@
 # Minería de Datos - Grupo A2SJ
 Bienvenido al repositorio del equipo de trabajo A2SJ de la asignatura de Minería de Datos de la Escuela Superior de Informatica de Ciudad Real (UCLM).
 
-Nuestro proyecto recibe el nombre de <b>GameRaterPred</b>, y su objetivo es predecir la valoración de los videojuegos acorde a las características que tengan.
+Nuestro proyecto recibe el nombre de <b>GamePredRater</b>, y su objetivo es predecir la valoración de los videojuegos acorde a las características que tengan.
 
 <img src="https://1.bp.blogspot.com/-mdeHp_0JY3U/YAckZRXBB9I/AAAAAAAABNk/cxyltHBRVKQ4LqmRc9BGsBHSaSuVz9bRwCLcBGAsYHQ/s16000/Captura.PNG"
      alt="Markdown Monster icon"
