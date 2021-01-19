@@ -1,16 +1,12 @@
 # Grupo A2SJ: GamePredRater
 ## Minería de Datos
 
+Bienvenido al repositorio del equipo de trabajo A2SJ de la asignatura de Minería de Datos de la Escuela Superior de Informatica de Ciudad Real (UCLM).
+
+Nuestro proyecto recibe el nombre de GamePredRater, y su objetivo es predecir la valoración de los videojuegos acorde a las características que tengan.
 
 
-## Componentes del grupo
-Agustín Mora Acosta
 
-Andrés González Díaz
-
-Sergio Sevilla Ballesteros
-
-José Ángel Villamor Carrillo
 
 ## Jerarquía de archivos
 
@@ -52,3 +48,14 @@ En el siguiente esquema se puede ver la estructura de directorios de nuestro rep
                                                        
 
 ```
+
+Además, puedes encontrar más información suplementaria en nuestra wiki.
+
+## Componentes del grupo
+Agustín Mora Acosta
+
+Andrés González Díaz
+
+Sergio Sevilla Ballesteros
+
+José Ángel Villamor Carrillo
