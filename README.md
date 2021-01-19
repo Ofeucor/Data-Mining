@@ -10,7 +10,7 @@ Nuestro proyecto recibe el nombre de GamePredRater, y su objetivo es predecir la
 
 ## Jerarquía de archivos
 
-En el siguiente esquema se puede ver la estructura de directorios de nuestro repositori.
+En el siguiente esquema se puede ver la estructura de directorios de nuestro repositorio.
 
 
 ```python
@@ -49,7 +49,7 @@ En el siguiente esquema se puede ver la estructura de directorios de nuestro rep
 
 ```
 
-Además, puedes encontrar más información suplementaria en nuestra wiki.
+Además, puedes encontrar más información suplementaria en nuestra [wiki](https://github.com/Ofeucor/Data-Mining/wiki).
 
 ## Componentes del grupo
 Agustín Mora Acosta
