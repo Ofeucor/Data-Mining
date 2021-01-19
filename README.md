@@ -18,29 +18,33 @@ En el siguiente esquema se puede ver la estructura de directorios de nuestro rep
 
 
 ```python
-├── README.md                                                                     <- README para los usuarios de este proyecto.
+├── README.md                                                      <- README para los usuarios de este proyecto.
 ├── data
-|   ├── processed                      <- Base line where we use a basic regression technique.
-│   |      ├── auxiliar1.csv                    <- Medium line where we do some improvements over base line.
-│   |      ├── auxiliar3.csv                    <- Medium line where we do some improvements over base line.
-|   |      └── Enlaces auxuliar 4                     <- High line containing the model that gives us the best results
-│   └── raw      
-│          ├── hours_played.csv    
-│          ├── steam.csv    
-│          ├── steam_description_data.csv  
-│          ├── steam_requirements_data.csv  
-|          └── steamspy_tag_data.csv                                                     
+|   ├── processed                                                  <- Datasets Preprocesados
+│   |      ├── auxiliar1.csv                                                                     <- Dataset resultante del cuaderno Auxiliar.
+│   |      ├── auxiliar3.csv                                                                     <- Dataset resultante del cuaderno Auxiliar.
+|   |      └── Enlaces_tarjeta_de_datos_&_auxuliar4.md                                           <- Enlace a los Datasets resultante del cuaderno Auxiliar y la Tarjeta de Datos.
+│   └── raw                                                        <- Datasets Originales
+│          ├── steam.csv                                                                         <- Dataset Principal
+│          ├── steam_description_data.csv                                                        <- Dataset Auxiliar con las descripciones de los juegos.
+│          ├── steam_requirements_data.csv                                                       <- Dataset Auxiliar con los requisitos hardware de los juegos.
+│          ├── hours_played.csv                                                                  <- Dataset Auxiliar con las horas medias de los juegos. 
+|          └── steamspy_tag_data.csv                                                             <- Dataset Auxiliar con los tags de los juegos.             
 │
 ├── notebooks
-|   ├── Modelos                                                   <- Base line where we use a basic regression technique.
-│   |      ├── auxiliar1.csv                                                                     <- Medium line where we do some improvements over base line.
-|   |      └── auxiliar3.csv                                                                     <- Medium line where we do some improvements over base line.    
+|   ├── Modelos                                                   <- Notebooks dirigidos a la generación de Modelos.
+│   |      ├── Algoritmos_de_Regresión_Mineria_de_Datos.ipynb                                    <- Notebooks dirigidos a la generación de Modelos de Regresión.
+|   |      └── Arbol_de_Decisión_Mineria_de_datos.ipynb                                          <- Notebooks dirigidos a la generación de Modelos de Arbol de Decisión.  
 |   └── Preprocesado                                              <- Notebooks dirigidos al preprocesado y Transformación de los datos.
-│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_1.ipynb.csv                                          <- Medium line where we do some improvements over base line.
-│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_2.ipynb.csv                                          <- Medium line where we do some improvements over base line.
-│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_3.ipynb.csv                                          <- Medium line where we do some improvements over base line.
-│          ├── Preproceso_y_Transformación_de_los_datos_Minería_de_Datos.ipynb                   <- Medium line where we do some improvements over base line.
-|          └── Selección_de_características_y_últimos_detalles_sobre_la                          <- Medium line where we do some improvements over base line. 
+│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_1.ipynb                                              <- Notebook dirigido al preprocesado y Transformación de los datos del         
+|          |                                                                                        Dataset Auxiliar 1.
+│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_2.ipynb                                              <- Notebook dirigido al preprocesado y Transformación de los datos del         
+|          |                                                                                        Dataset Auxiliar 2.
+│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_3.ipynb                                              <- Notebook dirigido al preprocesado y Transformación de los datos del         
+|          |                                                                                        Dataset Auxiliar 3.
+│          ├── Preproceso_y_Transformación_de_los_datos_Minería_de_Datos.ipynb                   <- Notebook dirigido al preprocesado y Transformación de los datos del         
+|          |                                                                                        Dataset principipal y adicción de los dataset auxiliar.
+|          └── Selección_de_características_y_últimos_detalles_sobre_la                          <- Notebook dirigido a la Selección de Caracteristicas. 
 |              _tarjeta_de_datos_Minería_de_datos.ipynb
 └── reports                                                
     ├── figures                                                   <- Imagenes usadas durante el Informe
