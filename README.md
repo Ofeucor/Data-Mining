@@ -3,31 +3,48 @@
 
 
 
-
-
 ## Componentes del grupo
 Agustín Mora Acosta
+
 Andrés González Díaz
+
 Sergio Sevilla Ballesteros
 
 José Ángel Villamor Carrillo
 
+## Jerarquía de archivos
 
-## File hierarchy
+En el siguiente esquema se puede ver la estructura de directorios de nuestro repositori.
 
-In the following scheme you can see the directory structure of our repository, containing descriptions of each element.
 
 ```python
-├── README.md                                                                     <- The top-level README for users using this project.
+├── README.md                                                                     <- README para los usuarios de este proyecto.
 ├── data
-│   ├── dengue_features_train.csv                                                 <- Data related to the features of the training dataset.
-│   ├── dengue_labels_train.csv                                                   <- Data related to the labels of the training dataset.
-│   └── dengue_features_test.csv                                                  <- Data related to the features of the test dataset.
+|   ├── processed                      <- Base line where we use a basic regression technique.
+│   |      ├── auxiliar1.csv                    <- Medium line where we do some improvements over base line.
+│   |      ├── auxiliar3.csv                    <- Medium line where we do some improvements over base line.
+|   |      └── Enlaces auxuliar 4                     <- High line containing the model that gives us the best results
+│   └── raw      
+│          ├── hours_played.csv    
+│          ├── steam.csv    
+│          ├── steam_description_data.csv  
+│          ├── steam_requirements_data.csv  
+|          └── steamspy_tag_data.csv                                                     
 │
 ├── notebooks
-│   ├── Supervised_Learning_Base_Line_Machine_Learning.ipynb                      <- Base line where we use a basic regression technique.
-│   ├── Supervised_Learning_Medium_Line_Machine_Learning.ipynb                    <- Medium line where we do some improvements over base line.
-│   └── Supervised_Learning_High_Line_Machine_Learning.ipynb                      <- High line containing the model that gives us the best results.
-                                                       <- Folder containing the .csv with the best result provided by the High-Line.
+|   ├── Modelos                                                   <- Base line where we use a basic regression technique.
+│   |      ├── auxiliar1.csv                                                                     <- Medium line where we do some improvements over base line.
+|   |      └── auxiliar3.csv                                                                     <- Medium line where we do some improvements over base line.    
+|   └── Preprocesado                                              <- Notebooks dirigidos al preprocesado y Transformación de los datos.
+│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_1.ipynb.csv                                          <- Medium line where we do some improvements over base line.
+│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_2.ipynb.csv                                          <- Medium line where we do some improvements over base line.
+│          ├── Grupo_A2SJ_Cuaderno_Auxiliar_3.ipynb.csv                                          <- Medium line where we do some improvements over base line.
+│          ├── Preproceso_y_Transformación_de_los_datos_Minería_de_Datos.ipynb                   <- Medium line where we do some improvements over base line.
+|          └── Selección_de_características_y_últimos_detalles_sobre_la                          <- Medium line where we do some improvements over base line. 
+|              _tarjeta_de_datos_Minería_de_datos.ipynb
+└── reports                                                
+    ├── figures                                                   <- Imagenes usadas durante el Informe
+    └── Entrega Final - Mineria de Datos.pdf                      <- Informe
+                                                       
 
 ```
